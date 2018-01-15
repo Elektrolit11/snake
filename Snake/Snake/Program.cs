@@ -34,7 +34,7 @@ namespace Snake
 
             // Создание еды для змейки
             FoodCreator foodCreator = new FoodCreator(80, 25, '$');
-            Point food = foodCreator.Createfood();
+            Point food = foodCreator.CreateFood();
             food.Draw();
             // Поедание и движение змейки
             while(true)
@@ -55,12 +55,13 @@ namespace Snake
                     ConsoleKeyInfo key = Console.ReadKey();
                     snake.HandleKey(key.Key);
                 }
+                Console.ReadLine();
             }
             
               
                                     
 
-            Console.ReadLine();
+            
         }
 
     }
