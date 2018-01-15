@@ -54,14 +54,13 @@ namespace Snake
                 {
                     ConsoleKeyInfo key = Console.ReadKey();
                     snake.HandleKey(key.Key);
-                }
-                Console.ReadLine();
+                }                
             }
-            
-              
-                                    
 
-            
+
+
+
+
         }
 
     }
